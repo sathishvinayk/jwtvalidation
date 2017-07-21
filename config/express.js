@@ -9,7 +9,7 @@ const methodOverride = require('method-override');
 const session = require('express-session');
 const flash = require('connect-flash');
 const passport = require('passport');
-const cors=require('cors');
+// const cors=require('cors');
 
 // Define the Express configuration method
 module.exports = function() {
@@ -23,7 +23,7 @@ module.exports = function() {
 		app.use(compress());
 	}
 
-	app.use(cors());
+	// app.use(cors());
 
 	// Use the 'body-parser' and 'method-override' middleware functions
 	app.use(bodyParser.urlencoded({

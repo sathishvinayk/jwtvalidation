@@ -1,5 +1,5 @@
 // Set the 'development' environment configuration object
 module.exports = {
-	db: 'mongodb://localhost/backup_d',
+	db: 'mongodb://localhost/chk',
 	sessionSecret: 'developmentSessionSecret'
 };

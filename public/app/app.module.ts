@@ -22,6 +22,7 @@ import { RingsModule } from './rings/rings.module';
     AuthenticationModule,
     HomeModule,
     ArticlesModule,
+    RingsModule,
     RouterModule.forRoot(AppRoutes),
   ],
   declarations: [

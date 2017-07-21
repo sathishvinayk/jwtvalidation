@@ -1,13 +1,13 @@
 import { Routes } from '@angular/router';
 import { RingsComponent } from './rings.component';
-import { CreateComponent } from './create/create.component';
-import { ListComponent } from './list/list.component';
+import { RingCreateComponent } from './ringcreate/ringcreate.component';
+import { RingallComponent } from './ringall/ringall.component';
 
 export const RingsRoutes: Routes = [{
-  path: 'arts',
+  path: 'rings',
   component: RingsComponent,
   children: [
-  	{path: '', component: ListComponent},
-  	{path: 'create', component: CreateComponent}
+  	{path: '', component: RingallComponent},
+  	{path: 'ringcreate', component: RingCreateComponent}
   ],
 }];

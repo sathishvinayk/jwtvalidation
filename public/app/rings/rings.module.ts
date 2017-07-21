@@ -5,8 +5,8 @@ import { RouterModule } from '@angular/router';
 
 import { RingsRoutes } from './rings.routes';
 import { RingsComponent } from './rings.component';
-import { CreateComponent } from './create/create.component';
-import { ListComponent } from './list/list.component';
+import { RingCreateComponent } from './ringcreate/ringcreate.component';
+import { RingallComponent } from './ringall/ringall.component';
 
 @NgModule({
   imports: [
@@ -16,10 +16,8 @@ import { ListComponent } from './list/list.component';
   ],
   declarations: [
     RingsComponent,
-    CreateComponent,
-    ListComponent,
-    ViewComponent,
-    EditComponent,
+    RingCreateComponent,
+    RingallComponent,
   ]
 })
 export class RingsModule {}
